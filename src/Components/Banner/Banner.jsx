@@ -1,6 +1,7 @@
 import React from 'react'
 
 const Banner = ({inProgress, resolved}) => {
+    console.log("this is banner  component")
     return (
         <div className='flex flex-col md:flex-row max-w-[1200px] mx-auto gap-5 mt-14'>
             <div className='md:w-[700px] md:h-[250px] h-[150px] w-11/12 mx-auto bg-gradient-to-r from-[#632EE3] to-[#9F62F2] flex flex-col justify-center items-center relative overflow-hidden rounded-2xl'>

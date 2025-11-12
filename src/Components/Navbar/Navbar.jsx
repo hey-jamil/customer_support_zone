@@ -1,6 +1,7 @@
 import React from 'react';
 
 const Navbar = () => {
+    console.log("this is navbar  component")
     return (
         <div>
             <div className='bg-white'>
